@@ -2,7 +2,7 @@ replicaCount: 3
 
 image:
   repository: 696960135893.dkr.ecr.eu-west-1.amazonaws.com/nodejs-postgres-ge-demos
-  tag: 'latest'
+  tag: 6e65396bc1272250304d7be874b24ce7a0b03497
   pullPolicy: Always
 
 service:
