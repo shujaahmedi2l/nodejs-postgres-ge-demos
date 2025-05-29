@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nodejs-postgres-ge-demos"
+  description: "nodejs-postgres-ge-demos"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/nodejs-postgres-ge-demos"
+    argocd/app-name: "nodejs-postgres-ge-demos"
+    backstage.io/techdocs-ref: dir:.
+  links:
+    - url: https://nodejs-postgres-ge-demos.onexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
